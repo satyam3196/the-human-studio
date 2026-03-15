@@ -1,0 +1,64 @@
+/* Offer page intro */
+.offer-intro {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Offer Card */
+.offer-card {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offer-card-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 24px;
+  color: var(--sage-green);
+}
+
+.offer-card-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.offer-card h2 {
+  margin-bottom: 10px;
+}
+
+.offer-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 24px;
+}
+
+.offer-list li {
+  font-family: var(--brand-font);
+  font-size: 1.05rem;
+  color: var(--text-medium);
+  padding: 8px 0;
+  position: relative;
+  letter-spacing: 0.02em;
+}
+
+.offer-list li::before {
+  content: '—';
+  color: var(--sage-light);
+  margin-right: 12px;
+}
+
+/* Bridge section */
+.offer-bridge {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.offer-bridge p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  line-height: 1.9;
+}
