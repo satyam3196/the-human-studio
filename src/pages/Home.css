@@ -115,24 +115,47 @@
 /* Values Grid */
 .values-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
+.values-grid .value-card:nth-child(4),
+.values-grid .value-card:nth-child(5) {
+  grid-column: span 1;
+}
+
+/* Center last row of 2 items */
+.values-grid {
+  justify-items: center;
+}
+
 .value-card {
   text-align: center;
-  padding: 30px 20px;
+  padding: 36px 24px 30px;
   border: 1px solid var(--sage-lighter);
   background: var(--warm-white);
   transition: var(--transition);
+  width: 100%;
 }
 
 .value-card:hover {
   border-color: var(--sage-light);
   transform: translateY(-4px);
   box-shadow: 0 8px 30px rgba(116, 131, 109, 0.08);
+}
+
+.value-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 18px;
+  color: var(--sage-green);
+}
+
+.value-icon svg {
+  width: 100%;
+  height: 100%;
 }
 
 .value-card h3 {
@@ -142,6 +165,20 @@
 .value-card p {
   font-size: 0.9rem;
   margin-bottom: 0;
+}
+
+/* Line Art Divider */
+.line-art-divider {
+  width: 100%;
+  max-width: 800px;
+  margin: -20px auto 0;
+  color: var(--sage-light);
+  padding: 0 24px;
+}
+
+.line-art-divider svg {
+  width: 100%;
+  height: auto;
 }
 
 /* CTA Section */
@@ -176,5 +213,13 @@
 
   .slider-container .image-before img {
     width: 100%;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .line-art-divider {
+    display: none;
   }
 }

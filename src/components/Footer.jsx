@@ -16,7 +16,7 @@ export default function Footer() {
             <Link to="/">home</Link>
             <Link to="/about">about</Link>
             <Link to="/what-we-offer">what we offer</Link>
-            <Link to="/tanishka">tanishka</Link>
+            <Link to="/our-therapists">our therapists</Link>
           </div>
 
           <div className="footer-contact">

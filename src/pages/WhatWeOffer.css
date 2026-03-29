@@ -13,8 +13,8 @@
 }
 
 .offer-card-icon {
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto 24px;
   color: var(--sage-green);
 }
@@ -38,15 +38,20 @@
   font-family: var(--brand-font);
   font-size: 1.05rem;
   color: var(--text-medium);
-  padding: 8px 0;
+  padding: 8px 0 8px 24px;
   position: relative;
   letter-spacing: 0.02em;
 }
 
 .offer-list li::before {
-  content: '—';
-  color: var(--sage-light);
-  margin-right: 12px;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 1px;
+  background-color: var(--sage-light);
 }
 
 /* Bridge section */

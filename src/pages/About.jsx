@@ -22,7 +22,7 @@ export default function About() {
               The Human Studio was created in response to something we kept noticing.
             </p>
             <p>
-              Many people — particularly young adults — are trying hard to understand themselves. They read about psychology, listen to mental health podcasts, and follow therapists online. There is more psychological awareness than ever before.
+              Many people, particularly young adults, are trying hard to understand themselves. They read about psychology, listen to mental health podcasts, and follow therapists online. There is more psychological awareness than ever before.
             </p>
             <p>
               And yet, many still feel stuck, isolated, or overwhelmed.
@@ -34,7 +34,7 @@ export default function About() {
               Individual therapy can be incredibly valuable, but it is also expensive and not always accessible. At the same time, many community spaces lack the psychological depth needed to truly explore what people may be going through.
             </p>
             <p className="about-highlight">
-              We began to notice a gap — between clinical therapy and everyday life.
+              We began to notice a gap between clinical therapy and everyday life.
             </p>
             <p>
               The Human Studio was created to sit in that space.
@@ -43,7 +43,7 @@ export default function About() {
               Through workshops and group programmes, we create structured spaces where people can explore psychological ideas together. These experiences help people understand what they may be feeling, recognise patterns in their lives, and often realise that others are navigating similar struggles.
             </p>
             <p>
-              At its heart, The Human Studio is about bringing psychological thinking into shared human experience — creating spaces where people can learn about themselves not only through reflection, but also through connection with others.
+              At its heart, The Human Studio is about bringing psychological thinking into shared human experience, creating spaces where people can learn about themselves not only through reflection, but also through connection with others.
             </p>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function About() {
             <h2>a different approach to mental health</h2>
             <div className="divider"></div>
             <p>
-              At The Human Studio, group work is not an addition to therapy — it is central to how we think about psychological growth.
+              At The Human Studio, group work is not an addition to therapy, it is central to how we think about psychological growth.
             </p>
             <p>
               Many of our struggles emerge in relationship with others, and often they can also be understood and transformed in relationship with others. Groups create a powerful environment where people can hear different perspectives, recognise shared experiences, and experiment with new ways of relating in a supportive setting.
@@ -71,7 +71,7 @@ export default function About() {
               This means our spaces often include workshops, interactive psychological models, relational exercises, guided reflections, and open conversations about mental health.
             </p>
             <p className="about-highlight">
-              Because understanding something intellectually is only the beginning. Real change often happens when insight is experienced, practiced, and shared with others.
+              Because understanding something intellectually is only the beginning. Real change often happens when insight is experienced, practised, and shared with others.
             </p>
           </div>
         </div>
@@ -127,7 +127,7 @@ export default function About() {
               At the same time, we noticed that many people are curious about psychology and personal growth, but often lack spaces where they can explore these ideas in a structured and supportive way with others. The Human Studio was created to offer a place where people can explore psychological ideas not only through conversation, but through shared experiences, reflection, and connection with others.
             </p>
             <p>
-              Our intention is to create an environment grounded in curiosity, openness, and mutual respect — where people from different cultures, identities, and life experiences can feel welcomed and understood, and where people are not reduced to problems or symptoms but seen as whole and evolving human beings.
+              Our intention is to create an environment grounded in curiosity, openness, and mutual respect, where people from different cultures, identities, and life experiences can feel welcomed and understood, and where people are not reduced to problems or symptoms but seen as whole and evolving human beings.
             </p>
           </div>
         </div>
@@ -140,16 +140,16 @@ export default function About() {
             <h2>our vision</h2>
             <div className="divider"></div>
             <p>
-              Our vision is to create more than a therapy service. We hope to build spaces where psychological understanding becomes part of everyday life — not something people only access during moments of crisis.
+              Our vision is to create more than a therapy service. We hope to build spaces where psychological understanding becomes part of everyday life, not something people only access during moments of crisis.
             </p>
             <p>
               Through workshops, group programmes, community conversations, and collaborations, we aim to make psychological insight more accessible, practical, and shared.
             </p>
             <p>
-              Our spaces are for people who may be navigating life transitions, questioning old patterns, wanting to build healthier relationships, or simply feeling curious about themselves and how they relate to the world around them. Many people are not in crisis, but they are searching for clarity, growth, and direction — and we believe mental health support should exist for them too.
+              Our spaces are for people who may be navigating life transitions, questioning old patterns, wanting to build healthier relationships, or simply feeling curious about themselves and how they relate to the world around them. Many people are not in crisis, but they are searching for clarity, growth, and direction, and we believe mental health support should exist for them too.
             </p>
             <p>
-              Ultimately, The Human Studio exists to help people feel more connected — to themselves, to others, and to the lives they want to build.
+              Ultimately, The Human Studio exists to help people feel more connected, to themselves, to others, and to the lives they want to build.
             </p>
             <p className="about-highlight">
               A space for reflection, growth, and becoming.
@@ -165,7 +165,7 @@ export default function About() {
             <h2>come explore with us</h2>
             <div className="hero-cta">
               <Link to="/what-we-offer" className="btn btn-filled">what we offer</Link>
-              <Link to="/tanishka" className="btn">meet tanishka</Link>
+              <Link to="/our-therapists" className="btn">Meet Our Therapists</Link>
             </div>
           </div>
         </div>

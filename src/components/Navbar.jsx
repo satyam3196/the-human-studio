@@ -44,8 +44,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/tanishka" className={isActive('/tanishka') ? 'active' : ''} onClick={closeMenu}>
-              tanishka
+            <Link to="/our-therapists" className={isActive('/our-therapists') ? 'active' : ''} onClick={closeMenu}>
+              our therapists
             </Link>
           </li>
         </ul>

@@ -1,0 +1,98 @@
+/* Therapists Intro */
+.therapists-intro {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Therapist Grid */
+.therapist-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.therapist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 30px;
+  border: 1px solid var(--sage-lighter);
+  background: var(--warm-white);
+  transition: var(--transition);
+  text-decoration: none;
+  color: inherit;
+}
+
+.therapist-card:hover {
+  border-color: var(--sage-light);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(116, 131, 109, 0.1);
+}
+
+.therapist-photo {
+  width: 180px;
+  height: 220px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--sage-lightest) 0%, var(--sage-lighter) 50%, var(--sage-lightest) 100%);
+  border: 1px solid var(--sage-lighter);
+  position: relative;
+  overflow: hidden;
+}
+
+.therapist-illustration {
+  width: 120px;
+  height: 150px;
+  color: var(--sage-light);
+  opacity: 0.6;
+}
+
+.photo-label {
+  font-family: var(--brand-font);
+  font-size: 0.85rem;
+  color: var(--sage-light);
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+}
+
+.therapist-info h3 {
+  margin-bottom: 8px;
+  font-size: 1.6rem;
+}
+
+.therapist-title {
+  font-family: var(--brand-font);
+  font-size: 1rem;
+  color: var(--text-light);
+  font-style: italic;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px !important;
+}
+
+.therapist-cta-text {
+  font-family: var(--brand-font);
+  font-size: 0.95rem;
+  color: var(--sage-green);
+  letter-spacing: 0.04em;
+  margin-bottom: 0 !important;
+  transition: var(--transition);
+}
+
+.therapist-card:hover .therapist-cta-text {
+  color: var(--sage-dark);
+}
+
+@media (max-width: 768px) {
+  .therapist-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 400px;
+  }
+}
