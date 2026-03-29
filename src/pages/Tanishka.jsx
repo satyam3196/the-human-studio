@@ -19,7 +19,7 @@ export default function Tanishka() {
             <div className="tanishka-photo-column">
               <div className="tanishka-main-photo">
                 <img
-                  src="/tanishka.jpg"
+                  src="./tanishka.jpg"
                   alt="Tanishka"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
                 />
